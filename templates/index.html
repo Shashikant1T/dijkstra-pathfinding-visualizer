@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dijkstra Web Visualizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>Dijkstra Pathfinding Visualizer</h2>
+
+<button onclick="runDijkstra()">Run</button>
+<button onclick="clearGrid()">Clear</button>
+
+<label>
+    <input type="checkbox" id="diagonalToggle">
+    Enable Diagonal Movement
+</label>
+<br><br>
+
+<canvas id="canvas" width="600" height="600"></canvas>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
